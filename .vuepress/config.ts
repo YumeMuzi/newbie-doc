@@ -109,7 +109,9 @@ export default defineUserConfig({
                     },
                     {
                         text: "常见问题",
-                        link: "/faq/",
+                        children: [
+                            ...getSortedFiles('faq'),
+                        ],
                     },
                     {
                         text: "管理",
@@ -194,6 +196,9 @@ export default defineUserConfig({
                         "/introduction/how-to-join.md",
                         "/introduction/series.md",
                         "/introduction/history.md",
+                    ],
+                    "/faq/": [
+                        ...getSortedFiles('faq'),
                     ],
                     "/events/": [
                         {
