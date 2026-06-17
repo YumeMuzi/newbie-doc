@@ -11,9 +11,43 @@ lang: zh-CN
 
 规定细则：
 
-- 玩家讨论、发送的成绩、发送的截图、在机器人处查询的成绩内，所对应的 osu! 谱面的星数，必须低于 **5.70** 星。
-- **唯一的赦免规则**：如果发送的是**含有通过特定星数成就**的成绩截图，则可无视此规定。
-- 如果在从群内创建的多人游戏房间 (MP) 内，并且玩家主体也是群内成员时，也可遵从此规定。
+- 玩家讨论、发送的成绩、发送的截图、在机器人处查询的成绩内，所对应的 osu! 谱面的星数，必须低于 **6.00** 星。
+- **赦免规则**：
+  - 如果发送的是**含有通过特定星数成就**的成绩截图，则可无视此规定。
+  - 如果谱面是以下几张，也可以无视此规定。
+- 如果在从群内创建的多人游戏房间 (MP) 内，并且玩家主体也是群内成员时，也需要遵守此规定（欢迎举报）。
+
+<Beatmap
+bid=86324
+sid=22276
+preview="Dark PHOENiX - Taketori Hishou (KanbeKotori) [Extra]"
+star=5.71
+max=1387
+/>
+
+<Beatmap
+bid=760488
+sid=320118
+preview="Reol - No title (VINXIS) [Nathan's Extra]"
+star=5.71
+max=469
+/>
+
+<Beatmap
+bid=738063
+sid=320118
+preview="Reol - No title (VINXIS) [Lust's Insane]"
+star=5.72
+max=403
+/>
+
+<Beatmap
+bid=1620144
+sid=757146
+preview="Tanaka Hirokazu - C-TYPE (Arf) [Bonsai's BasS-TYPE]"
+star=5.42
+max=162
+/>
 
 处罚细则：
 
