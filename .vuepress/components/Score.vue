@@ -139,7 +139,8 @@ const alias = computed(() => props.alias ?? aliasQuery.search(parsedData.value.t
 const statusColor = computed(() => getStarColor(props.star));
 
 const backgroundColor = computed(() => {
-  if (props.color != null && props.color.toString().startsWith('#')) {
+  // 只要 props.color 不为空，就直接使用它传入的值
+  if (props.color != null && props.color !== '') {
     return props.color
   } else {
     return getStarColor(props.star)
